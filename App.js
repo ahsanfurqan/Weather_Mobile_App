@@ -28,7 +28,7 @@ export default function App() {
   }
   useEffect(() => {
     fetchWeather("Sukkur");
-    console.log(weatherData);
+    // console.log(weatherData);
   }, []);
 
   if (!loaded) {
